@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/noovate"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/txtnoovate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noovate"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtnoovate"
+                android:layout_marginTop="6dp"
+                android:text="The Next Tech Solution"
+                android:textColor="@color/teal_200"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="TODO"
+                android:src="@drawable/ic_person_icon" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:src="@drawable/ic_baseline_image_24"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18sp"
+                        android:text="Calendar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
